@@ -1,0 +1,6 @@
+bitcoin
+ethereum
+cardano
+dogecoin
+ripple
+fakecoin
