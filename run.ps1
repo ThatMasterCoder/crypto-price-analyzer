@@ -1,2 +1,2 @@
-g++ -Wall -Wextra -g3 -o output\processor.exe processor.cpp
-python counter.py input.txt .\output\processor.exe
+g++ -Wall -Wextra -g3 -o output\processor.exe src\cpp\processor.cpp
+python src\python\counter.py input.txt .\output\processor.exe
