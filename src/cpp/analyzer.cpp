@@ -9,12 +9,12 @@ int main(){
     std::string coin;
     double initial_price, latest_price;
 
-
+// read from stdin line by line ( coin initial_price latest_price )
     while (std::cin >> coin >> initial_price >> latest_price) {
         double change = latest_price - initial_price;
         double change_percent = (change / initial_price) * 100.0;
 
-        
+        // dynamic precision based on initial price
         int precision;
         if (initial_price < 0.01) {
             precision = 8;
@@ -27,7 +27,7 @@ int main(){
         }
 
         
-
+// feed formatted processed to stdout
         std::cout << std::setprecision(precision) << std::fixed 
                 << "Name: " << coin 
                 << ", Last Price: $" << initial_price 
