@@ -51,7 +51,7 @@ if __name__ == "__main__":
         sys.exit(1)
     # find stocks, check if they exist in alphavantage
     try:
-        with open('stocks.txt', 'r') as file:
+        with open('data/stocks.txt', 'r') as file:
             check_stocks = []
             for line in file:
                 check_stocks.append(line.strip())

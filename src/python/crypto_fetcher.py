@@ -27,7 +27,7 @@ if __name__ == "__main__":
         sys.exit(1)
     # find coins, check if they exist in coingecko
     try:
-        with open('coins.txt', 'r') as file:
+        with open('data/coins.txt', 'r') as file:
             check_coins = []
             for line in file:
                 check_coins.append(line.strip())
