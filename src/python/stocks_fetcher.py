@@ -127,6 +127,7 @@ if __name__ == "__main__":
         print("-"*40)
         print(f"Waiting {DELAY} seconds before next fetch...\n")
         print("Time is:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+        print("Press Ctrl+C to stop.")
         time.sleep(DELAY)  # wait for DELAY seconds before next fetch
 
         
